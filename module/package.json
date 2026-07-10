@@ -1,24 +1,30 @@
 {
-  "name": "@compose-material/react",
-  "version": "0.0.1",
-  "description": "1:1 Compose Multiplatform's and Jetpack Compose's Material 3 Expressive Design System API for React with Tailwind 4",
-  "type": "module",
-  "main": "./build/index.js",
-  "module": "./build/index.js",
-  "types": "./build/index.d.ts",
-  "exports": {
-    ".": "./build/index.js"
-  },
-  "keywords": [
-    "react",
-    "jetpack-compose",
-    "compose-multiplatform",
-    "material-3",
-    "material-design",
-    "tailwind",
-    "typescript"
-  ],
-  "author": "ferwoitschach",
-  "license": "MIT"
+	"name": "@compose-material/react",
+	"version": "0.0.1",
+	"description": "1:1 Compose Multiplatform's and Jetpack Compose's Material 3 Expressive Design System API for React 18+ with Tailwind 4",
+	"type": "module",
+	"main": "./build/index.js",
+	"module": "./build/index.js",
+	"types": "./build/index.d.ts",
+	"exports": {
+		".": "./build/index.js"
+	},
+	"keywords": [
+		"react",
+		"jetpack-compose",
+		"compose-multiplatform",
+		"material-3",
+		"material-design",
+		"tailwind",
+		"typescript"
+	],
+	"author": "ferwoitschach",
+	"license": "MIT",
+	"dependencies": {},
+	"devDependencies": {
+		"@types/react": "^19.2.17",
+		"@types/react-dom": "^19.2.3",
+		"typescript": "^7.0.2"
+	}
 }
 
